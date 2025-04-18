@@ -5,6 +5,7 @@ import Pneumonia from "./pages/Pneumonia";
 import ProstateCancer from "./pages/ProstateCancer";
 import ChronicKidney from "./pages/ChronicKidney";
 import "./App.css";
+import logo from './logo.png';
 
 
 import ScrollToTop from "./ScrollToTop";
@@ -74,7 +75,13 @@ function App() {
         <header className="header">
           <nav className="navbar">
             <Link to="/#home" className="navbar-brand">
-              <span className="brand-highlight">Diagnosense</span>
+              <span className="brand-highlight">
+                <img 
+                  src="/logo.png" 
+                  alt="Diagnosense Logo" 
+                  style={{ height: '40px', width: 'auto' }} 
+                />
+              </span>
             </Link>
             <div className="nav-links">
               <a href="/#home" className="nav-link">Home</a>
