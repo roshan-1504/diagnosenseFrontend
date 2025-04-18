@@ -51,7 +51,7 @@ const ChronicKidney = () => {
 
       console.log("Sending data:", processedData);
 
-      const response = await axios.post("http://localhost:5001/predict_ckd", processedData);
+      const response = await axios.post("https://diagnosensebackend.onrender.com/predict_ckd", processedData);
       console.log("Response received:", response.data);
       
       if (response.data.status === "success") {
