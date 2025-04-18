@@ -7,7 +7,7 @@ function Home() {
       <section id="home" className="hero-section">
         <div className="hero-content">
           <h1 className="hero-title">
-              
+            <span className="brand-name">Diagnosense</span>
           </h1>
           <h2 className="hero-subtitle">
             AI-Powered Health Diagnostics
