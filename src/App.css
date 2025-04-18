@@ -1,4 +1,4 @@
-/* Base styling */
+
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +27,6 @@ a {
   flex: 1;
 }
 
-/* Header styling */
 .header {
   position: sticky;
   top: 0;
@@ -91,7 +90,7 @@ a {
   width: 100%;
 }
 
-/* Hero section */
+
 .hero-section {
   min-height: calc(100vh - 80px);
   display: flex;
@@ -176,7 +175,7 @@ a {
   transform: translateY(-2px);
 }
 
-/* About section */
+
 .about-section {
   padding: 5rem 5%;
   background-color: #fff;
@@ -245,14 +244,11 @@ a {
   color: #1e3a8a;
 }
 
-/* Disease Predictors section */
-/* Disease Predictors section */
 .predictors-section {
   padding: 5rem 5%;
   background-color: #f0f4ff;
 }
 
-/* Disease Predictor Cards styling */
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -268,7 +264,7 @@ a {
   transition: transform 0.3s, box-shadow 0.3s;
   display: flex;
   flex-direction: column;
-  height: 380px; /* Set a fixed height for all cards */
+  height: 380px;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
@@ -279,19 +275,18 @@ a {
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Card header styling - LARGER */
 .card-header {
-  padding: 4rem 1.5rem; /* Increase padding to make header taller */
+  padding: 4rem 1.5rem; 
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 65%; /* Make the header take up 65% of the card height */
+  height: 65%;
+  
 }
 
-/* Specific background colors for each card type */
 .pneumonia-card .card-header {
   background: #4169e1;
 }
@@ -305,22 +300,22 @@ a {
 }
 
 .card-icon {
-  font-size: 3rem; /* Larger icon */
+  font-size: 3rem; 
   margin-bottom: 1.5rem;
 }
 
 .card-header h3 {
-  font-size: 1.75rem; /* Larger text */
+  font-size: 1.75rem;
   font-weight: 600;
   margin: 0;
 }
 
-/* Card body styling - SMALLER */
+
 .card-body {
-  padding: 2rem 1.5rem; /* Increase padding for more space */
+  padding: 2rem 1.5rem; 
   background-color: white;
   text-align: center;
-  height: 35%; /* Make the body take up 35% of the card height */
+  height: 35%; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -329,14 +324,11 @@ a {
 .card-body p {
   margin: 0;
   color: #4b5563;
-  font-size: 1rem; /* Slightly larger text */
+  font-size: 1rem; 
   line-height: 1.5;
 }
 
 
-
-
-/* Form Styles */
 .form-container {
   max-width: 800px;
   margin: 0 auto;
@@ -473,7 +465,7 @@ a {
   color: #006600;
 }
 
-/* Footer styling */
+
 .footer {
   background-color: #1e293b;
   color: #f1f5f9;
@@ -560,7 +552,7 @@ a {
   margin-top: 1rem;
   font-weight: 500;
 }
-/* Responsive styles */
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
