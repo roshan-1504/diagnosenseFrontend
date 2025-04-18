@@ -29,7 +29,7 @@ const ProstateCancerPredictor = () => {
 
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:5003/predict/prostate-cancer", formData, {
+      const response = await axios.post("https://diagnosensebackend.onrender.com/prostate-cancer", formData, {
         headers: {
           "Content-Type": "multipart/form-data"
         }
