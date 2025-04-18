@@ -14,7 +14,6 @@ code {
     monospace;
 }
 
-/* Add bootstrap CSS grid classes */
 .row {
   display: flex;
   flex-wrap: wrap;
