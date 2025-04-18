@@ -74,15 +74,13 @@ function App() {
       <div className="app-container">
         <header className="header">
           <nav className="navbar">
-            <Link to="/#home" className="navbar-brand">
-              <span className="brand-highlight">
-                <img 
-                  src="/logo.png" 
-                  alt="Diagnosense Logo" 
-                  style={{ height: '40px', width: 'auto' }} 
-                />
-              </span>
-            </Link>
+          <a href="/#home" className="navbar-brand">
+            <img 
+              src="/logo.png" 
+              alt="Diagnosense Logo" 
+              style={{ height: '40px', width: 'auto' }} 
+            />
+          </a>
             <div className="nav-links">
               <a href="/#home" className="nav-link">Home</a>
               <a href="/#about" className="nav-link">About</a>
